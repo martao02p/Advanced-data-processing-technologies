@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SWIAT SYSTEM "swiat.dtd">
+<?xml-stylesheet type="text/xsl" href="swiat.xsl"?>
+<SWIAT>
+  <KONTYNENTY>
+    <KONTYNENT ID="k1">
+      <NAZWA>Europe</NAZWA>
+    </KONTYNENT>
+    <KONTYNENT ID="k2">
+      <NAZWA>Asia</NAZWA>
+    </KONTYNENT>
+  </KONTYNENTY>
+  <KRAJE>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Afghanistan</NAZWA>
+      <STOLICA>Kabul</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>China</NAZWA>
+      <STOLICA>Beijing</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Iran</NAZWA>
+      <STOLICA>Tehran</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Pakistan</NAZWA>
+      <STOLICA>Islamabad</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Tajikistan</NAZWA>
+      <STOLICA>Dushanbe</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Turkmenistan</NAZWA>
+      <STOLICA>Ashgabat</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Uzbekistan</NAZWA>
+      <STOLICA>Tashkent</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Armenia</NAZWA>
+      <STOLICA>Yerevan</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Georgia</NAZWA>
+      <STOLICA>Tbilisi</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Azerbaijan</NAZWA>
+      <STOLICA>Baku</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Bangladesh</NAZWA>
+      <STOLICA>Dhaka</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Burma</NAZWA>
+      <STOLICA>Rangoon</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>India</NAZWA>
+      <STOLICA>New Delhi</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Bhutan</NAZWA>
+      <STOLICA>Thimphu</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Malaysia</NAZWA>
+      <STOLICA>Kuala Lumpur</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Laos</NAZWA>
+      <STOLICA>Vientiane</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Thailand</NAZWA>
+      <STOLICA>Bangkok</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Cambodia</NAZWA>
+      <STOLICA>Phnom Penh</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Vietnam</NAZWA>
+      <STOLICA>Hanoi</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Albania</NAZWA>
+      <STOLICA>Tirane</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Greece</NAZWA>
+      <STOLICA>Athens</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Macedonia</NAZWA>
+      <STOLICA>Skopje</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Serbia and Montenegro</NAZWA>
+      <STOLICA>Belgrade</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>France</NAZWA>
+      <STOLICA>Paris</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Spain</NAZWA>
+      <STOLICA>Madrid</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Austria</NAZWA>
+      <STOLICA>Vienna</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Czech Republic</NAZWA>
+      <STOLICA>Prague</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Germany</NAZWA>
+      <STOLICA>Berlin</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Hungary</NAZWA>
+      <STOLICA>Budapest</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Italy</NAZWA>
+      <STOLICA>Rome</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Slovakia</NAZWA>
+      <STOLICA>Bratislava</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Slovenia</NAZWA>
+      <STOLICA>Ljubljana</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Switzerland</NAZWA>
+      <STOLICA>Bern</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Belarus</NAZWA>
+      <STOLICA>Minsk</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Latvia</NAZWA>
+      <STOLICA>Riga</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Lithuania</NAZWA>
+      <STOLICA>Vilnius</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Poland</NAZWA>
+      <STOLICA>Warsaw</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Ukraine</NAZWA>
+      <STOLICA>Kiev</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Belgium</NAZWA>
+      <STOLICA>Brussels</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Netherlands</NAZWA>
+      <STOLICA>Amsterdam</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Bosnia and Herzegovina</NAZWA>
+      <STOLICA>Sarajevo</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Croatia</NAZWA>
+      <STOLICA>Zagreb</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Bulgaria</NAZWA>
+      <STOLICA>Sofia</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Romania</NAZWA>
+      <STOLICA>Bucharest</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Denmark</NAZWA>
+      <STOLICA>Copenhagen</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Estonia</NAZWA>
+      <STOLICA>Tallinn</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Finland</NAZWA>
+      <STOLICA>Helsinki</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Norway</NAZWA>
+      <STOLICA>Oslo</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Sweden</NAZWA>
+      <STOLICA>Stockholm</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Ireland</NAZWA>
+      <STOLICA>Dublin</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Moldova</NAZWA>
+      <STOLICA>Chisinau</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>Portugal</NAZWA>
+      <STOLICA>Lisbon</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k1">
+      <NAZWA>United Kingdom</NAZWA>
+      <STOLICA>London</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Kazakstan</NAZWA>
+      <STOLICA>Almaty</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>North Korea</NAZWA>
+      <STOLICA>Pyongyang</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Kyrgyzstan</NAZWA>
+      <STOLICA>Bishkek</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Mongolia</NAZWA>
+      <STOLICA>Ulaanbaatar</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Nepal</NAZWA>
+      <STOLICA>Kathmandu</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Israel</NAZWA>
+      <STOLICA>Jerusalem</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Indonesia</NAZWA>
+      <STOLICA>Jakarta</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Iraq</NAZWA>
+      <STOLICA>Baghdad</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Jordan</NAZWA>
+      <STOLICA>Amman</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Kuwait</NAZWA>
+      <STOLICA>Kuwait</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Saudi Arabia</NAZWA>
+      <STOLICA>Riyadh</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Syria</NAZWA>
+      <STOLICA>Damascus</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Lebanon</NAZWA>
+      <STOLICA>Beirut</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Japan</NAZWA>
+      <STOLICA>Tokyo</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>South Korea</NAZWA>
+      <STOLICA>Seoul</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Oman</NAZWA>
+      <STOLICA>Muscat</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>United Arab Emirates</NAZWA>
+      <STOLICA>Abu Dhabi</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Yemen</NAZWA>
+      <STOLICA>Sanaa</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Philippines</NAZWA>
+      <STOLICA>Manila</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Singapore</NAZWA>
+      <STOLICA>Singapore</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Sri Lanka</NAZWA>
+      <STOLICA>Colombo</STOLICA>
+    </KRAJ>
+    <KRAJ KONTYNENT="k2">
+      <NAZWA>Taiwan</NAZWA>
+      <STOLICA>Taipei</STOLICA>
+    </KRAJ>
+  </KRAJE>
+</SWIAT>
