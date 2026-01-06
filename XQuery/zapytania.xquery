@@ -16,7 +16,7 @@ return
   </ksiazka>
 
 
-(: zad.7 -> like before but polish tags + concat w/o space :)
+(: zad.7 :)
 for $b in doc("db/bib/bib.xml")//book
 for $t in $b/title
 for $a in $b/author
