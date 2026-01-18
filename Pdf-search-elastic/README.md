@@ -118,5 +118,4 @@ VITE_API_URL=http://localhost:3000/api
 <br>
 
 ---
-<br>
-Projekt stworzony w ramach kursu ZTPD.
+Źródło ikon: https://pl.freepik.com/
