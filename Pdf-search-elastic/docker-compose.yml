@@ -1,0 +1,22 @@
+services:
+  elasticsearch:
+    build:
+      context: ./docker/elasticsearch
+    container_name: es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  tika:
+    image: apache/tika:2.9.2.1
+    container_name: tika
+    ports:
+      - "9998:9998"
+
+volumes:
+  esdata:

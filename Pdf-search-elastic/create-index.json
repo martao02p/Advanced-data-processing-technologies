@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "pl_default": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "lowercase",
+            "polish_stop",
+            "polish_stem"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "id": { "type": "keyword" },
+      "filename": { "type": "keyword" },
+      "content": {
+        "type": "text",
+        "analyzer": "pl_default"
+      },
+      "author": { "type": "keyword" },
+      "created_at": { "type": "date" }
+    }
+  }
+}
