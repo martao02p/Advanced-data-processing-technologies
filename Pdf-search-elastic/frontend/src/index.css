@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f1e8;
+  min-height: 100vh;
+  color: #3e3e3e;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: 2px solid #8b7355;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background: white;
+  color: #6b5744;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #6b5744;
+  color: white;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="search"] {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d4c4b0;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+  background: white;
+  color: #3e3e3e;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+  outline: none;
+  border-color: #8b7355;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border: 1px solid #e8dcc8;
+  border-radius: 4px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-color: #d4c4b0;
+}
+
+/* Highlights */
+mark {
+  background-color: #f9f1e0;
+  border-bottom: 2px solid #c9a96e;
+  padding: 1px 2px;
+  font-weight: 500;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 3px solid #e8dcc8;
+  border-top: 3px solid #8b7355;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+}

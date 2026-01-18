@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 250px;
+  overflow-y: auto;
+}
